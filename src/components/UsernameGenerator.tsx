@@ -49,7 +49,7 @@ export default function UsernameGenerator() {
     if (!isValid) return
     const usernames = generateUsernames(form)
     setResults(usernames)
-    void trackLead(form, usernames)
+    void trackLead(form)
   }
 
   const handleReset = () => setResults(null)

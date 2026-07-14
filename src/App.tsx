@@ -1,9 +1,9 @@
-import UsernameGenerator from './components/UsernameGenerator'
+import ExpandableTool from './components/ExpandableTool'
 
 export default function App() {
   return (
-    <div className="max-w-[536px] mx-auto p-4 font-system text-gray-800">
-      <UsernameGenerator />
+    <div className="font-system text-gray-800">
+      <ExpandableTool />
     </div>
   )
 }
